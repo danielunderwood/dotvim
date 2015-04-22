@@ -22,6 +22,7 @@ Plugin 'whatyouhide/vim-gotham'
 Plugin 'lervag/vimtex'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
+Plugin 'LaTeX-Box-Team/LaTeX-Box'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -43,6 +44,7 @@ map <C-up> :tabr<cr>
 map <C-down> :tabl<cr>
 map <C-left> :tabp<cr>
 map <C-right> :tabn<cr>
+imap <F4> <C-o>:update<CR><C-o>\ll
 
 " Save
 map <C-s> :w
