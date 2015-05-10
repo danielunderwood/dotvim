@@ -23,6 +23,7 @@ Plugin 'lervag/vimtex'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'LaTeX-Box-Team/LaTeX-Box'
+Plugin 'jalcine/cmake.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
