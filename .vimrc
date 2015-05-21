@@ -4,6 +4,7 @@ filetype off                  " required
 set shell=/bin/bash
 set number
 syntax on
+set colorcolumn=80
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -25,6 +26,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'LaTeX-Box-Team/LaTeX-Box'
 Plugin 'jalcine/cmake.vim'
+Plugin 'bling/vim-airline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -54,6 +56,9 @@ map <C-s> :w
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
 endif
+
+" Airline always show
+set laststatus=2
 
 colorscheme gotham256
 
