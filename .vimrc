@@ -27,6 +27,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'LaTeX-Box-Team/LaTeX-Box'
 Plugin 'jalcine/cmake.vim'
 Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-sleuth'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
