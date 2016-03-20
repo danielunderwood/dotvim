@@ -61,7 +61,7 @@ endif
 " Airline always show
 set laststatus=2
 
-colorscheme gotham256
+colorscheme default
 
 " YCM Settings
 let g:ycm_complete_in_comments = 1
