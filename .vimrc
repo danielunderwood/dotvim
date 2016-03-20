@@ -28,6 +28,10 @@ Plugin 'LaTeX-Box-Team/LaTeX-Box'
 Plugin 'jalcine/cmake.vim'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-sleuth'
+Plugin 'vim-erlang/vim-erlang-runtime'
+Plugin 'vim-erlang/vim-erlang-compiler'
+Plugin 'vim-erlang/vim-erlang-omnicomplete'
+Plugin 'vim-erlang/vim-erlang-tags'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
