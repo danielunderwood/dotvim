@@ -5,6 +5,10 @@ set shell=/bin/bash
 set number
 syntax on
 set colorcolumn=80
+
+" Fix backspace on os x
+set backspace=indent,eol,start
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
